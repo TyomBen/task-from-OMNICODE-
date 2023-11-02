@@ -1,0 +1,20 @@
+.form-control.comment-textarea {
+    height: 300px;
+}
+
+.comment-submit {
+    display: flex;
+    justify-content: end;
+}
+
+.comment-content {
+    display: flex;
+    justify-content: end;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.comment-meta {
+    display: flex;
+    justify-content: end;
+}
