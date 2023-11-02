@@ -10,9 +10,8 @@ class ChildComment extends Model
         'content',
         'parent_comment_id',
     ];
-
     public function comment () : BelongsTo
     {
-        return $this->belongsTo(Comment::class);
+        return $this->belongsTo(Comment::class, 'parent_comment_id');
     }
 }
